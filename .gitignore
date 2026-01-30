@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & generated artefacts
+data/*
+!data/README.md
+
+event_sequences_chunks/
+*.pkl
+*.parquet
+*.npy
+*.pt
+*.ckpt
+
+# Windows metadata
+*.Zone.Identifier
